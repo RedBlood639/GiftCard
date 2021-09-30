@@ -1,4 +1,4 @@
-name: Development
+name: Deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   bulid:
-    name: Development
+    name: Deploy
 
     runs-on: ubuntu-latest
 
